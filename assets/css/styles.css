@@ -231,7 +231,7 @@ header {
 
 .my-services {
   background-color: rgba(0, 0, 0, 0.7);
-  background-image: url(/assets/img/service.jpg);
+  background-image: url(../../assets/img/service.jpg);
   background-size: cover;
   background-blend-mode: multiply;
   color: var(--clr-light);
@@ -329,11 +329,11 @@ header {
   grid-template-columns: repeat(auto-fit, min-max(300px, 1fr));
   position: relative; */
 
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; 
-} 
+  flex-wrap: wrap;
+}
 
 .portfolio__item {
   width: 300px;
@@ -378,16 +378,16 @@ header {
   width: 100%;
 }
 
-.project__title{
+.project__title {
   color: var(--clr-light);
   margin-top: 1rem;
   text-transform: capitalize;
 }
-.project__subtitle{
+.project__subtitle {
   color: var(--clr-accent);
 }
 
-.portfolio__link{
+.portfolio__link {
   border: 1px solid var(--clr-light);
   color: var(--clr-light);
   margin: 2rem 0;
@@ -464,11 +464,11 @@ header {
   margin-right: auto;
 }
 
-.code__container{
+.code__container {
   margin-left: auto;
   margin-right: auto;
 }
-.code__link{
+.code__link {
   border: 1px solid var(--clr-accent);
   color: var(--clr-dark);
   padding: 0.8rem 1.5rem;
@@ -477,10 +477,9 @@ header {
   font-weight: var(--fw-bold);
   text-transform: uppercase;
   margin-left: 1rem;
-
 }
 
-.code__link:hover{
+.code__link:hover {
   border: none;
   background: var(--clr-accent);
   color: var(--clr-light);
